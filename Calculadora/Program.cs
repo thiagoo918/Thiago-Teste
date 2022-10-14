@@ -27,22 +27,22 @@ while (formulaErrada == true)
 
     if (formula == "+")
     {
-        Console.WriteLine($"seu resultado é: {resultadoSoma}");
+        Console.WriteLine($"Total: {resultadoSoma}");
         formulaErrada = false;
     }
     else if (formula == "-")
     {
-        Console.WriteLine($"seu resultado é: {resultadoSubtracao}");
+        Console.WriteLine($"Total: {resultadoSubtracao}");
         formulaErrada = false;
     }
     else if (formula == "*")
     {
-        Console.WriteLine($"Seu resultado é: {resultadoMultiplicacao}");
+        Console.WriteLine($"Total: {resultadoMultiplicacao}");
         formulaErrada = false;
     }
     else if (formula == "/")
     {
-        Console.WriteLine($"Seu resultado é: {resultadoDivisao}");
+        Console.WriteLine($"Total: {resultadoDivisao}");
         formulaErrada = false;
     }
     if (formulaErrada == true)
